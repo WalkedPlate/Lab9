@@ -1,10 +1,18 @@
-package com.example.clase10crud.beans;
-
 public class Title {
+
+    private int id;
     private int empNo;
     private String title;
     private String fromDate;
     private String toDate;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public int getEmpNo() {
         return empNo;
